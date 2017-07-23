@@ -81,10 +81,14 @@ function prepareJSON($input) {
 		</div>
 		<div id="control-panel" style="display:none"> <!--// hide while loading -->
 			<?php
-				include 'PublicBeerPanel.php';
+				include 'control-panel.php';
 			?>
 		</div>
-
+		<div id="maintenance-panel" style="display:none"> <!--// hide while loading -->
+			<?php
+				include 'maintenance-panel.php';
+			?>
+		</div>
 		<!-- Load scripts after the body, so they don't block rendering of the page -->
 		<!-- <script type="text/javascript" src="js/jquery-1.11.0.js"></script> -->
 		<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
