@@ -76,12 +76,7 @@ function prepareJSON($input) {
 	<body>
 		<div id="beer-panel" class="ui-widget ui-widget-content ui-corner-all">
 			<?php
-				include 'beer-panel.php';
-			?>
-		</div>
-		<div id="control-panel" style="display:none"> <!--// hide while loading -->
-			<?php
-				include 'PublicBeerPanel.php';
+			include 'PublicBeerPanel.php';
 			?>
 		</div>
 
